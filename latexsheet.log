@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.21)  11 DEC 2019 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.21)  11 DEC 2019 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,17 +413,17 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<baseLimit.png, id=317, 273.52188pt x 257.96375pt>
+<baseLimit.png, id=205, 273.52188pt x 257.96375pt>
 File: baseLimit.png Graphic file (type png)
 <use baseLimit.png>
 Package pdftex.def Info: baseLimit.png  used on input line 118.
 (pdftex.def)             Requested size: 85.35826pt x 80.50325pt.
-<mmu.png, id=318, 420.06938pt x 166.12062pt>
+<mmu.png, id=206, 420.06938pt x 166.12062pt>
 File: mmu.png Graphic file (type png)
 <use mmu.png>
 Package pdftex.def Info: mmu.png  used on input line 126.
 (pdftex.def)             Requested size: 170.71652pt x 67.51167pt.
-<relocate.png, id=319, 388.45125pt x 269.50688pt>
+<relocate.png, id=207, 388.45125pt x 269.50688pt>
 File: relocate.png Graphic file (type png)
 <use relocate.png>
 Package pdftex.def Info: relocate.png  used on input line 134.
@@ -431,7 +431,7 @@ Package pdftex.def Info: relocate.png  used on input line 134.
  (/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<varPart.png, id=320, 390.96063pt x 121.95563pt>
+<varPart.png, id=208, 390.96063pt x 121.95563pt>
 File: varPart.png Graphic file (type png)
 <use varPart.png>
 Package pdftex.def Info: varPart.png  used on input line 186.
@@ -442,22 +442,22 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 192.
-<page.png, id=321, 249.43187pt x 49.18375pt>
+<page.png, id=209, 249.43187pt x 49.18375pt>
 File: page.png Graphic file (type png)
 <use page.png>
 Package pdftex.def Info: page.png  used on input line 258.
 (pdftex.def)             Requested size: 113.81102pt x 22.44167pt.
-<pageTable.png, id=322, 319.1925pt x 243.91125pt>
+<pageTable.png, id=210, 319.1925pt x 243.91125pt>
 File: pageTable.png Graphic file (type png)
 <use pageTable.png>
 Package pdftex.def Info: pageTable.png  used on input line 263.
 (pdftex.def)             Requested size: 170.71652pt x 130.45215pt.
-<pageHW.png, id=323, 443.15562pt x 254.9525pt>
+<pageHW.png, id=211, 443.15562pt x 254.9525pt>
 File: pageHW.png Graphic file (type png)
 <use pageHW.png>
 Package pdftex.def Info: pageHW.png  used on input line 281.
 (pdftex.def)             Requested size: 199.16928pt x 114.5875pt.
-<pageTrans.png, id=324, 243.91125pt x 55.20625pt>
+<pageTrans.png, id=212, 243.91125pt x 55.20625pt>
 File: pageTrans.png Graphic file (type png)
 <use pageTrans.png>
 Package pdftex.def Info: pageTrans.png  used on input line 303.
@@ -465,84 +465,85 @@ Package pdftex.def Info: pageTrans.png  used on input line 303.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./baseLimit.png (PNG copy)> <./mmu.png (PNG copy)> <./relocate.png (PNG copy)> <./varPart.png (PNG copy)> <./page.png (PNG copy)> <./pageTable.png (PNG copy)> <./pageHW.png (PNG copy)> <./pageTrans.png (PNG copy)>]
-<virtualMem.png, id=346, 419.5675pt x 304.63812pt>
+<virtualMem.png, id=234, 419.5675pt x 304.63812pt>
 File: virtualMem.png Graphic file (type png)
 <use virtualMem.png>
-Package pdftex.def Info: virtualMem.png  used on input line 365.
+Package pdftex.def Info: virtualMem.png  used on input line 401.
 (pdftex.def)             Requested size: 199.16928pt x 144.61163pt.
-<pageFault.png, id=347, 604.2575pt x 504.88625pt>
+<pageFault.png, id=235, 604.2575pt x 504.88625pt>
 File: pageFault.png Graphic file (type png)
 <use pageFault.png>
-Package pdftex.def Info: pageFault.png  used on input line 393.
+Package pdftex.def Info: pageFault.png  used on input line 429.
 (pdftex.def)             Requested size: 199.16928pt x 166.41266pt.
-<pageReplace.png, id=349, 415.05063pt x 299.61937pt>
+<pageReplace.png, id=237, 415.05063pt x 299.61937pt>
 File: pageReplace.png Graphic file (type png)
 <use pageReplace.png>
-Package pdftex.def Info: pageReplace.png  used on input line 467.
+Package pdftex.def Info: pageReplace.png  used on input line 503.
 (pdftex.def)             Requested size: 199.16928pt x 143.7745pt.
-<fifo.png, id=350, 386.94562pt x 129.48375pt>
+ [2 <./virtualMem.png (PNG copy)> <./pageFault.png> <./pageReplace.png (PNG copy)>]
+<fifo.png, id=269, 386.94562pt x 129.48375pt>
 File: fifo.png Graphic file (type png)
 <use fifo.png>
-Package pdftex.def Info: fifo.png  used on input line 510.
+Package pdftex.def Info: fifo.png  used on input line 546.
 (pdftex.def)             Requested size: 170.71652pt x 57.12712pt.
-<optimal.png, id=351, 380.92313pt x 116.93687pt>
+<optimal.png, id=270, 380.92313pt x 116.93687pt>
 File: optimal.png Graphic file (type png)
 <use optimal.png>
-Package pdftex.def Info: optimal.png  used on input line 524.
+Package pdftex.def Info: optimal.png  used on input line 560.
 (pdftex.def)             Requested size: 170.71652pt x 52.40697pt.
-<lru.png, id=352, 443.15562pt x 118.4425pt>
+<lru.png, id=271, 443.15562pt x 118.4425pt>
 File: lru.png Graphic file (type png)
 <use lru.png>
-Package pdftex.def Info: lru.png  used on input line 534.
+Package pdftex.def Info: lru.png  used on input line 570.
 (pdftex.def)             Requested size: 170.71652pt x 45.62851pt.
- [2 <./virtualMem.png (PNG copy)> <./pageFault.png> <./pageReplace.png (PNG copy)> <./fifo.png (PNG copy)>] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+ (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<belady.png, id=377, 425.59pt x 225.84375pt>
+<belady.png, id=272, 425.59pt x 225.84375pt>
 File: belady.png Graphic file (type png)
 <use belady.png>
-Package pdftex.def Info: belady.png  used on input line 596.
+Package pdftex.def Info: belady.png  used on input line 632.
 (pdftex.def)             Requested size: 170.71652pt x 90.59435pt.
-<proc.png, id=378, 182.18062pt x 244.41313pt>
+<proc.png, id=273, 182.18062pt x 244.41313pt>
 File: proc.png Graphic file (type png)
 <use proc.png>
-Package pdftex.def Info: proc.png  used on input line 671.
+Package pdftex.def Info: proc.png  used on input line 670.
 (pdftex.def)             Requested size: 56.9055pt x 76.34161pt.
- [3 <./optimal.png (PNG copy)> <./lru.png (PNG copy)> <./belady.png> <./proc.png (PNG copy)>]
-<PCB.png, id=393, 148.555pt x 208.78pt>
+ [3 <./fifo.png (PNG copy)> <./optimal.png (PNG copy)> <./lru.png (PNG copy)> <./belady.png> <./proc.png (PNG copy)>]
+<PCB.png, id=288, 148.555pt x 208.78pt>
 File: PCB.png Graphic file (type png)
 <use PCB.png>
-Package pdftex.def Info: PCB.png  used on input line 842.
+Package pdftex.def Info: PCB.png  used on input line 820.
 (pdftex.def)             Requested size: 56.9055pt x 79.97435pt.
  [4 <./PCB.png (PNG copy)>]
-<philo.png, id=400, 352.31625pt x 301.125pt>
+<philo.png, id=296, 352.31625pt x 301.125pt>
 File: philo.png Graphic file (type png)
 <use philo.png>
-Package pdftex.def Info: philo.png  used on input line 1096.
+Package pdftex.def Info: philo.png  used on input line 1074.
 (pdftex.def)             Requested size: 142.26378pt x 121.59196pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1102.
  [5 <./philo.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1102.
  (./latexsheet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1124.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1102.
 Package rerunfilecheck Info: File `latexsheet.out' has not changed.
-(rerunfilecheck)             Checksum: 5166B7670C67DDEE690DC441356FEEFE;5119.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1124.
+(rerunfilecheck)             Checksum: B8013DCEE0DE9690095E68E9A3ED3C1F;3308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1102.
  ) 
 Here is how much of TeX's memory you used:
- 8492 strings out of 492167
- 122396 string characters out of 6131557
- 266348 words of memory out of 5000000
- 12634 multiletter control sequences out of 15000+600000
+ 8444 strings out of 492167
+ 121780 string characters out of 6131557
+ 266324 words of memory out of 5000000
+ 12606 multiletter control sequences out of 15000+600000
  6216 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,5n,28p,763b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on latexsheet.pdf (5 pages, 830185 bytes).
+Output written on latexsheet.pdf (5 pages, 827238 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
- 715 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 491 words of extra memory for PDF output out of 10000 (max. 10000000)
 

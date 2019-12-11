@@ -340,6 +340,42 @@ Physical Address identifies a physical location of required data in a memory. Th
 	Page table is kept in main memory
 	\subsection{Translation Look Aside Buffer}
 
+	The idea used here is, place the page table entries in registers, for each request generated from CPU (virtual address), it will be matched to the appropriate page number of the page table, which will now tell where in the main memory that corresponding page resides. Everything seems right here, but the problem is register size is small (in practical, it can accommodate maximum of 0.5k to 1k page table entries) and process size may be big hence the required page table will also be big (lets say this page table contains 1M entries), so registers may not hold all the PTE’s of Page table. So this is not a practical approach.
+
+To overcome this size issue, the entire page table was kept in main memory. but the problem here is two main memory references are required:
+
+    To find the frame number
+    To go to the address specified by frame number
+
+To overcome this problem a high-speed cache is set up for page table entries called a Translation Lookaside Buffer (TLB). Translation Lookaside Buffer (TLB) is nothing but a special cache used to keep track of recently used transactions. TLB contains page table entries that have been most recently used. Given a virtual address, the processor examines the TLB if a page table entry is present (TLB hit), the frame number is retrieved and the real address is formed. If a page table entry is not found in the TLB (TLB miss), the page number is used to index the process page table. TLB first checks if the page is already in main memory, if not in main memory a page fault is issued then the TLB is updated to include the new page entry.
+
+
+\textbf{Steps in TLB hit:}
+\begin{enumerate}[noitemsep]
+	\item CPU generates virtual address.
+    \item It is checked in TLB (present).
+    \item Corresponding frame number is retrieved, which now tells where in the main memory page lies.
+\end{enumerate}
+
+\textbf{Steps in Page miss:}
+\begin{enumerate}[noitemsep]
+	\item CPU generates virtual address.
+    \item It is checked in TLB (not present).
+    \item Now the page number is matched to page table residing in main memory (assuming page table contains all PTE).
+    \item Corresponding frame number is retrieved, which now tells where in the main memory page lies.
+    \item The TLB is updated with new PTE (if space is not there, one of the replacement technique comes into picture i.e either FIFO, LRU or MFU etc).
+\end{enumerate}
+
+\textbf{Effective memory access time(EMAT)} : TLB is used to reduce effective memory access time as it is a high speed associative cache.
+\textbf{EMAT = h*(c+m) + (1-h)*(c+2m)}
+where, h = hit ratio of TLB
+m = Memory access time
+c = TLB access time 
+
+
+
+
+
 \section{Virutal Memory}
 	\subsection{What is virtual memory}
 	\textbf{virtual memory}-is the seperation of logical memory from physical memory. 
@@ -616,53 +652,16 @@ In LRU algorithm every time a page is referenced it is moved at the top of the s
 		
 		\subsubsection{Use with I/O:memory mapped files}
 	\subsection{Thrashing}
+		\begin{itemize}[noitemsep]
+			\item IF a process does not have enoug pages, page fault rate is very high\\
+			\item Page fault to get page\\
+			\item Replace existing frame\\
+			\item But quickly need replaced frame back\\
+			\item Leading to: low CPU utilization, OS thinking it needs to increase 
+				multiprogramming, another process added to system
+			\item Thrashing = a process is busy swapping pages in and out
+		\end{itemize}
 	\subsection{Working sets}
-
-\section{File Systems}
-	\subsection{Definitions}
-
-\section{File Systems Implementation}
-	\subsection{Definitions}
-	\subsection{Concepts}
-		\subsubsection{File system layers}
-		
-		\subsubsection{Files, dirs, systems}
-		
-		\subsubsection{Operations and usage}
-		
-		\subsubsection{Remote file systems}
-		Did not really cover.
-	
-	\subsection{Implementation}
-		\subsubsection{What is on disk? How is it formatted?}
-		
-		\subsubsection{What is in memory? How is it represented?}
-		
-		\subsubsection{Control blocks}
-		
-	\subsection{System Usage}
-		\subsubsection{File allocation}
-		
-		\subsubsection{Getting a file Caching}
-		
-		\subsubsection{Free space management}
-		
-		\subsubsection{Recovery}
-		Did not really cover much.
-
-\section{I/O Systems}
-	\subsection{Definitions}
-	\subsection{Hardware}
-		\subsubsection{Devices}
-		
-		\subsubsection{Controllers}
-	\subsection{Interfacing with Devices}
-		\subsubsection{Polling, interrupts}
-		
-		\subsubsection{DMA}
-	\subsection{Types of I/O Operation}
-
-	\subsection{I/O system structure in OS}
 
 \section{Processes and Threads}
 
@@ -680,27 +679,6 @@ Is it possible to do multiprogramming if the computer system only has one proces
 \textbf{multiprocessing}-a computer using more than one CPU at a time
 
 \textbf{multithreading}-having multiple threads of execution for one process
-
-\textbf{What is the purpose of system calls and how do they work? Give two examples of common 
-system calls.}
-
-System calls allow the user to make a request for some type of service from the operating system.
-This allows for user programs to ask the OS to do some stuff on behalf of the program. It can also
-allow a process to send a request to the kernel. The kernel makes a range of services accessible 
-to programs via the system call application programming interface (API). These services include, 
-for example, creating a new process, performing I/O, and creating a pipe for inter process 
-communication. A system call changes the processor state from user mode to kernel mode, so that 
-the CPU can access protected kernel memory.
-
-\textbf{fork()}-makes a new process (child process) that runs concurrently with the process 
-making the \textbf{fork()} call. After the new child is created both processes execute the next
-instruction following the \textbf{fork()} system call. A child process uses the same pc, registers,
-and open files
-
-\textbf{wait()}-Blocks the calling process until one of its child processes exits or recieves a 
-signal. Child processes can terminate due to any of these: calls \textbf{exit()}, returns an int
-from main, or reiceives a signal whose default action is to terminate.
-
 
 \textbf{What is a process control block and what is its purpose?}
 

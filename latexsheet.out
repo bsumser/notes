@@ -40,39 +40,11 @@
 \BOOKMARK [3][-]{section*.40}{Use with I/O:memory mapped files}{section*.37}% 40
 \BOOKMARK [2][-]{section*.41}{Thrashing}{section*.19}% 41
 \BOOKMARK [2][-]{section*.42}{Working sets}{section*.19}% 42
-\BOOKMARK [1][-]{section*.43}{File Systems}{}% 43
-\BOOKMARK [2][-]{section*.44}{Definitions}{section*.43}% 44
-\BOOKMARK [1][-]{section*.45}{File Systems Implementation}{}% 45
-\BOOKMARK [2][-]{section*.46}{Definitions}{section*.45}% 46
-\BOOKMARK [2][-]{section*.47}{Concepts}{section*.45}% 47
-\BOOKMARK [3][-]{section*.48}{File system layers}{section*.47}% 48
-\BOOKMARK [3][-]{section*.49}{Files, dirs, systems}{section*.47}% 49
-\BOOKMARK [3][-]{section*.50}{Operations and usage}{section*.47}% 50
-\BOOKMARK [3][-]{section*.51}{Remote file systems}{section*.47}% 51
-\BOOKMARK [2][-]{section*.52}{Implementation}{section*.45}% 52
-\BOOKMARK [3][-]{section*.53}{What is on disk? How is it formatted?}{section*.52}% 53
-\BOOKMARK [3][-]{section*.54}{What is in memory? How is it represented?}{section*.52}% 54
-\BOOKMARK [3][-]{section*.55}{Control blocks}{section*.52}% 55
-\BOOKMARK [2][-]{section*.56}{System Usage}{section*.45}% 56
-\BOOKMARK [3][-]{section*.57}{File allocation}{section*.56}% 57
-\BOOKMARK [3][-]{section*.58}{Getting a file Caching}{section*.56}% 58
-\BOOKMARK [3][-]{section*.59}{Free space management}{section*.56}% 59
-\BOOKMARK [3][-]{section*.60}{Recovery}{section*.56}% 60
-\BOOKMARK [1][-]{section*.61}{I/O Systems}{}% 61
-\BOOKMARK [2][-]{section*.62}{Definitions}{section*.61}% 62
-\BOOKMARK [2][-]{section*.63}{Hardware}{section*.61}% 63
-\BOOKMARK [3][-]{section*.64}{Devices}{section*.63}% 64
-\BOOKMARK [3][-]{section*.65}{Controllers}{section*.63}% 65
-\BOOKMARK [2][-]{section*.66}{Interfacing with Devices}{section*.61}% 66
-\BOOKMARK [3][-]{section*.67}{Polling, interrupts}{section*.66}% 67
-\BOOKMARK [3][-]{section*.68}{DMA}{section*.66}% 68
-\BOOKMARK [2][-]{section*.69}{Types of I/O Operation}{section*.61}% 69
-\BOOKMARK [2][-]{section*.70}{I/O system structure in OS}{section*.61}% 70
-\BOOKMARK [1][-]{section*.71}{Processes and Threads}{}% 71
-\BOOKMARK [1][-]{section*.72}{Deadlocks}{}% 72
-\BOOKMARK [2][-]{section*.73}{Concepts}{section*.72}% 73
-\BOOKMARK [1][-]{section*.74}{Synchronization}{}% 74
-\BOOKMARK [2][-]{section*.75}{Concepts}{section*.74}% 75
-\BOOKMARK [2][-]{section*.76}{Peterson's Solution}{section*.74}% 76
-\BOOKMARK [2][-]{section*.77}{Mutex vs Semaphore}{section*.74}% 77
-\BOOKMARK [2][-]{section*.78}{Dining Philosopher}{section*.74}% 78
+\BOOKMARK [1][-]{section*.43}{Processes and Threads}{}% 43
+\BOOKMARK [1][-]{section*.44}{Deadlocks}{}% 44
+\BOOKMARK [2][-]{section*.45}{Concepts}{section*.44}% 45
+\BOOKMARK [1][-]{section*.46}{Synchronization}{}% 46
+\BOOKMARK [2][-]{section*.47}{Concepts}{section*.46}% 47
+\BOOKMARK [2][-]{section*.48}{Peterson's Solution}{section*.46}% 48
+\BOOKMARK [2][-]{section*.49}{Mutex vs Semaphore}{section*.46}% 49
+\BOOKMARK [2][-]{section*.50}{Dining Philosopher}{section*.46}% 50
